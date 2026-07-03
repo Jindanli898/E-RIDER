@@ -1,0 +1,38 @@
+# Local archives and generated folders
+_local_archive*/
+data/
+runs/
+checkpoints/
+outputs/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs and local debug files
+*.log
+lddebug.log
+
+# Datasets and credentials
+NeurIPS-2025/data/
+NeurIPS-2025/runs/
+NeurIPS-2025/config/
+config/kaggle/kaggle.json
+
+# AIHWKIT build outputs and large binaries
+aihwkit_repo/
+aihwkit_repo.tgz
+_skbuild/
+*.so
+*.dll
+*.pyd
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Keep documentation placeholders
+!prebuilt/README.md
+
